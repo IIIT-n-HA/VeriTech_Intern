@@ -1,0 +1,39 @@
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* Media queries for responsiveness */
+
+/* For tablets and smaller devices */
+@media only screen and (max-width: 768px) {
+    .about,
+    .leader,
+    .developer,
+    .sales {
+        margin: 50px auto;
+    }
+
+    /* Center text components for small devices */
+    .text-component {
+        text-align: center;
+    }
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 480px) {
+    .about,
+    .leader,
+    .developer,
+    .sales {
+        margin: 20px auto;
+    }
+
+    /* Center text components for small devices */
+    .text-component {
+        text-align: center;
+    }
+}
